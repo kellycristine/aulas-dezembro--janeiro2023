@@ -1,0 +1,43 @@
+Vamos praticar!
+Chegou a hora de aplicar o conhecimento adquirido em nossos
+encontros. Lembrando sempre que os exercícios e desafios serão nossos
+principais indicadores sobre o conhecimento de vocês, tanto para
+ajudá-los como na hora do direcionamento para as vagas.
+
+1. Desenvolva um algoritmo para percorrer um vetor de 15 elementos
+inteiros já preenchido e imprima todos os valores pares.
+
+
+
+2. Desenvolva um algoritmo para percorrer um vetor de 20 elementos
+inteiros e no final mostre a soma de todos os elementos.
+
+
+3. Desenvolva um algoritmo que preenche um vetor com os 4
+primeiros números perfeitos.
+
+4. Crie uma função que recebe 2 vetores de 10 elementos inteiros e que
+retorne a união dos dois em um novo vetor.
+
+5. Crie uma função que recebe um vetor de inteiros e um número
+inteiro e retorne verdadeiro se o número faz parte do vetor ou falso
+se não faz parte.
+
+6. Escreva um algoritmo que solicite ao usuário a entrada de 5 nomes,
+e que exiba a lista desses nomes na tela. Após exibir essa lista, o
+programa deve mostrar também os nomes na ordem inversa em
+que o usuário os digitou.
+
+Ex:
+Entrada: Édson, Marcelo, Letícia, Ju, Thobias
+Saída: Thobias, Ju, Letícia, Marcelo, Édson
+
+Este exercício será corrigido na próxima aula com o Tech Helper e deverá
+ser postado na Class até o horário estipulado da tarefa na plataforma.
+Crie um arquivo compactado contendo os arquivos com a resolução da
+atividade e realize o upload no post da atividade no Class.
+
+Para que possamos construir uma base sólida de aprendizado é preciso
+praticar.
+
+Bora implementar tudo isso!

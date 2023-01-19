@@ -1,0 +1,48 @@
+Vamos praticar!
+Chegou a hora de aplicar o conhecimento adquirido em nosso encontro.
+Lembrando sempre que os exercícios e desafios serão nossos principais
+indicadores sobre o conhecimento de vocês, tanto para ajudá-los como
+na hora do direcionamento para as vagas.
+
+1. Crie um objeto em JavaScript para colocar dois atributos de um
+produto. Atribua o preço e descrição do produto com o valor “90” e a
+descrição com o valor “Mouse”. Mostre no console o valor dos dois
+atributos.
+
+2. Crie um objeto em JavaScript para colocar 5 atributos de um
+notebook. Atribua os seguintes atributos:
+Processador = i7
+Memória = 16GB
+Preço = 5000
+HD = 1TB
+SSD = 256GB
+Por fim, utilizando o laço for in, mostre o nome e valor de cada
+atributo no console.
+
+3. Crie um objeto para colocar nome e duas notas. Atribua nome e
+duas notas para o primeiro objeto, que será nosso primeiro aluno.
+Agora crie mais um objeto para colocar informações do nosso
+segundo aluno. Mostre as informações de cada aluno no console.
+Mostre também a média do primeiro aluno e a média do segundo
+aluno. Por fim mostre a média desta turma de 2 alunos.
+
+4. Crie cinco objetos JavaScript dentro de um Array contendo
+nome(texto), idade(número), skills (array), ou seja um total de cinco
+
+alunos. Agora crie uma função que receba estes cinco objetos e
+mais um parâmetro skill. Dependendo da skill enviada mostrar no
+console.log(), quais alunos têm a skill enviada por parâmetro,
+mostrar todo o objeto.
+Exemplo: Pedro, 24, [JavaScript, TypeScript, React]. Se mandar
+chamar a função enviando (alunos, “JavaScript”), precisa mostrar o
+Pedro e qual mais se encaixa nessa skill.
+
+Este exercício será corrigido na próxima aula com o Tech Helper e deverá
+ser postado na Class até o horário estipulado da tarefa na plataforma.
+Crie um arquivo compactado contendo os arquivos com a resolução da
+atividade e realize o upload no post da atividade no Class.
+
+Para que possamos construir uma base sólida de aprendizado é preciso
+praticar.
+
+Bora implementar tudo isso!

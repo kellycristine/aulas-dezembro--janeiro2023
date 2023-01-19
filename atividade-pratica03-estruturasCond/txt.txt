@@ -1,0 +1,104 @@
+Chegou a hora de aplicar o conhecimento adquirido em nosso encontro.
+Lembrando sempre que os exercícios e desafios serão nossos principais
+indicadores sobre o conhecimento de vocês, tanto para ajudá-los como
+na hora do direcionamento para as vagas.
+
+1. Desenvolva um algoritmo que faça o cálculo do índice de massa
+corporal de uma pessoa. Esse algoritmo deve solicitar ao usuário
+que digite sua altura, em seguida solicitar que digite seu peso e que
+lhe exiba o status. O status vai variar da seguinte forma:
+a. Se o IMC for menor que 18,5 o status a ser mostrado deve ser
+“Você está abaixo da faixa de peso ideal”;
+b. Se o IMC estiver acima de 24,99 o status a ser mostrado será
+“Você está acima da faixa de peso ideal”;
+c. Se o IMC for igual ou maior que 18,5 e igual ou menor que
+24,99, o status a ser mostrado será “Você está dentro da faixa
+de peso ideal”.
+
+2. Escreva um algoritmo que solicite 2 números e uma operação
+matemática. O algoritmo deve realizar o cálculo com os 2 números
+digitados conforme a operação informada.
+
+3. Faça um algoritmo que simule um caixa eletrônico. Nesse algoritmo
+a conta do usuário deve ser criada já com um saldo positivo. O
+usuário precisa informar a quantidade de dinheiro que deseja
+retirar, esse valor deve ser um número positivo, múltiplo de 5 e
+menor do que o saldo. Cada saque eletrônico cobra uma taxa de
+R$4.50. Ao final deve ser informado o saldo da conta caso dê tudo
+certo com o saque, e se o usuário informar um valor maior que o
+
+saldo deve ser informado ao usuário que o mesmo não tem dinheiro
+suficiente em conta para realizar o saque.
+OBS: Na verificação se o valor do saque é maior que o saldo deve
+ser considerado e também contabilizado o valor da taxa a ser
+cobrada pelo saque. Ou seja, o valor a ser sacado somado ao valor
+da taxa do saque não pode ser maior que o saldo disponível.
+
+4. Escreva um algoritmo que percorra os números inteiros entre 1 e 250
+e verifique quais números são múltiplos de 3 e quais são múltiplos
+de 5.
+
+5. Faça um algoritmo que leia a idade e peso de um atleta e imprima
+a sua categoria, de acordo com a seguinte tabela:
+
+Idade Peso Categoria
+Até 12 anos - Infantil
+13 a 16 anos Até 40kg Juvenil leve
+Acima de 40kg Juvenil pesado
+17 a 24 anos Até 45kg Sênior leve
+Acima de 45kg até 60kg Sênior médio
+Acima de 60kg Sênior pesado
+Acima de 24 anos - Veterano
+
+6. Pedro tem 1,50m de altura e cresce 2 centímetros por ano, enquanto
+Lucas tem 1,10m de altura e cresce 3 centímetros por ano.
+Construa um algoritmo que calcule e imprima quantos anos serão
+necessários para que:
+a. Lucas e Pedro tenham o mesmo tamanho;
+b. Lucas seja maior que Pedro.
+
+7. Escreva um programa que pergunte a velocidade de um carro. Caso
+ultrapasse 80Km/h, exiba uma mensagem dizendo que o usuário foi
+multado. Nesse caso, exiba o valor da multa, cobrando R$5 por cada
+km acima da velocidade permitida.
+
+8. Escreva um algoritmo que faça a tabuada de um número e
+apresente o resultado de acordo com o modelo a seguir, sabendo
+que o multiplicando deverá ser fornecido pelo usuário (n) e a
+quantidade de iterações também (i).
+1 * 2 = 2
+2 * 2 = 4
+3 * 2 = 6
+...
+
+9. Desenvolva um algoritmo que leia a altura de 15 pessoas. Este
+programa deverá calcular e mostrar:
+a. A menor altura do grupo;
+b. A maior altura do grupo;
+
+10. Faça um programa usando a estrutura “for” que leia um número
+inteiro positivo e mostre na tela uma contagem de 0 até o valor
+digitado:
+Ex: Digite um valor: 9
+Contagem: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, FIM!
+
+11. Desenvolva um algoritmo que mostre uma contagem regressiva de
+30 até 1, marcando os números que forem primos, exatamente
+como mostrado abaixo:
+30 [29] 28 27 26 25 24 [23] 22 21 20 [19] 18 [17] 16...
+
+12. Desenvolva um algoritmo que leia 10 números, calcule e escreva a
+média aritmética dos valores lidos, a quantidade de valores
+
+positivos, a quantidade de valores negativos e o percentual de
+valores negativos e positivos.
+
+Este exercício deverá ser postado na Class até o horário estipulado da
+tarefa na plataforma. Crie um arquivo compactado contendo os arquivos
+com a resolução da atividade e realize o upload no post da atividade no
+Class.
+
+Para que possamos construir uma base sólida de aprendizado é preciso
+praticar.
+
+Bora implementar tudo isso!
