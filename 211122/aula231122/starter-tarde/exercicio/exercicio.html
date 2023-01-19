@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica</title>
+</head>
+<body>
+    <h1>Atidade pratica 231122</h1>
+    <h2>Média ponderada</h2>
+
+    <script>
+
+        let aluno = prompt('Insira o nome do aluno: ')
+        let N1 = prompt('Insira a primeira nota: ')
+        let N2 = prompt('Insira a segunda nota: ')
+        let N3 = prompt('Insira a terceira nota: ')
+        let P1 = 2
+        let P2 = 3
+        let P3 = 5
+        let equacao = (N1 * P1) + (N2 * P2) + (N3 * P3) 
+        let peso = P1 + P2 + P3
+        let media = equacao / peso
+
+        document.write(`<h2>Nome do aluno: ${aluno} </h2>`)
+        document.write(`<h2>Média do aluno é: ${media} </h2>`)
+        if(media >= 7) {
+            document.write('<h1>Passou de ano!</h1>')
+        }else {
+            document.write('<h1> Reprovado </h1>')
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+// argumento - soma(15, 10) - são os dados passados ​​para as funções no momento da chamada da função
+
+
+// parâmetro - são os dados que serão recebidos na definição da função
+
+
+soma ( 15 ,  10 )  // 15 argumento -> parâmetro num1, 10 argumento -> parâmetro num2
+soma ( 20 ,  30 )
+
+
+// retorno - resposta da função/rotina após realizar os comandos necessários
+
+
+
+// nao possui retorno e nao possui parametros
+// function boasvindas() {
+// document.write('Bem vindo ao site!')
+// }
+
+
+// nao possui retorno mas possui parametros
+// função soma(num1, num2) {
+// document.write(`${num1 + num2}`)
+// }
+
+// escopo GLOBAL
+// deixe numero = 10;
+
+// exigem retorno e não possuem parâmetro
+função  verificarPar ( )  {
+
+    if ( numero  %  2  ===  0 )  {
+
+        // escopo LOCAL
+        deixe  testar  =  'Testar'
+
+        se ( verdadeiro )  {
+            console . registro ( teste )
+
+        }
+
+        retornar  verdadeiro
+    }  senão  {
+        
+        retornar  falso
+    }
+
+}
+
+
+
+// possui parâmetros e possui retornos
+função  calcular ( num1 ,  num2 )  {
+    retornar  num1  +  num2
+}
+
+let  algumaCoisa  =  prompt ( 'Informe alguma coisa: ' )
+
+let  soma  =  calcular ( 15 ,  10 )
+deixe  soma2  =  calcular ( 100 ,  50 )
+
+/*
+1. Desenvolva um algoritmo que faça o calculador do índice de massa
+corporal de uma pessoa. Esse algoritmo deve solicitar ao usuário
+que digite sua altura, em seguida solicita que digite seu peso e que
+o estado de exibição. O status vai variar da seguinte forma:
+uma. Se o IMC for menor que 18,5 o status a ser mostrado deve ser
+“Você está abaixo da faixa de peso ideal”;
+b. Se o IMC estiver acima de 24,99 o status a ser exibido será
+“Você está acima da faixa de peso ideal”;
+c. Se o IMC for igual ou maior que 18,5 e igual ou menor que
+24,99, o status a ser exibido será “Você está dentro da faixa
+de peso ideal”
+*/
+
+// toda vez que um return executando a função para sua execução
+
+função  exercício1 ( )  {
+
+    const  altura  =  Number ( prompt ( "Digite sua altura: " ) )
+
+    // null, '', 0 -> !false
+    if ( ! altura )  {
+        alert ( "Você precisa informar a altura para continuar. tente novamente!" )
+        // para a função QUE DEU RUIM
+        Retorna
+    }
+
+    const  peso  =  Number ( prompt ( "Digite seu peso: " ) )
+
+    if ( ! peso )  {
+        alert ( "Você precisa informar o peso para continuar. tente novamente!" )
+        // para a função QUE DEU RUIM
+        Retorna
+    }
+
+    const  imc  =  peso  /  ( altura  *  altura ) ;
+
+    if ( imc  <  18,5 )  {
+        documento . write ( `Você está abaixo da faixa de peso ideal.` )
+    
+    }  else  if ( imc  >  24,99 )  {
+        documento . escreva ( `Você está acima da faixa de peso ideal.` )
+    
+    }  senão  {
+        documento . write ( `Você está dentro da faixa de peso ideal.` )
+    }
+    
+}
+
+
+função  exercício4 ( )  {
+
+    documento . write ( `<h2> Múltiplos de 3 </h2>` )
+    for ( let  contador  =  1 ;  contador  <=  250 ;  contador ++ )  {
+
+        if ( contador  %  3  ===  0 )  {
+            documento . escreva ( `[ ${ contador } ],` )
+        }
+    }
+
+    documento . write ( `<h2> Múltiplos de 5 </h2>` )
+    for ( let  contador  =  1 ;  contador  <=  250 ;  contador ++ )  {
+
+        if ( contador  %  5  ===  0 )  {
+            documento . escreva ( `[ ${ contador } ],` )
+        }
+    }
+    
+}
+
+/*
+11. Desenvolva um algoritmo que mostre uma contagem regressiva de
+30 até 1, marcando os números que foram primos, exatamente
+como mostrado abaixo:
+30 [29] 28 27 26 25 24 [23] 22 21 20 [19] 18 [17] 16…
+*/
+função  exercício11 ( )  {
+    
+    for ( let  contador  =  30 ;  contador  >=  1 ;  contador -- )  {
+        
+        const  primo  =  verificaPrimo ( contador )  // 30 -> 1ª 29 -> 2ª
+
+        // se primo receber o valor true -> é primo
+        // se primo vive o valor false -> não é primo
+        if ( primo )  {
+            documento . escreva ( `[ ${ contador } ],` )
+        } senão  {
+            documento . escreva ( ` ${ contador } ,` )
+        }
+    }
+}
+
+function  verificaPrimo ( numero )  {  //30
+    // primo ele só pode ter 2 divisores - 1 e ele mesmo
+    deixe  divisores  =  2 ;  // começou com 2 pois todo numero é dividido por 1 e por ele mesmo
+
+    for ( let  contador  =  2 ;  contador  <  numero ;  contador ++ )  {
+        // ex: 7
+        // 2 até 6
+        if ( numero  %  contador  ===  0 )  {
+            divisores ++
+        }
+    }
+
+    if ( divisores  ===  2 )  {
+        retornar  verdadeiro
+    }  senão  {
+        retornar  falso
+    }
+}
+
+/*
+12. Desenvolva um algoritmo que leia 10 números, calcule e escreva a
+média aritmética dos valores lidos, a quantidade de valores
+positivos, a quantidade de valores e o percentual negativo de
+valores negativos e positivos.
+soma = 0
+numeroLido = 15 + 30 + 45 + 50
+soma = soma + numeroLido
+*/
+
+função  exercício12 ( )  {
+    deixe  soma  =  0 ;
+    deixe  negativo  =  0 ;
+    deixe  positivo  =  0 ;
+
+    for ( let  contador  =  1 ;  contador  <=  10 ;  contador ++ )  {
+
+        let  numeroLido  =  Number ( prompt ( `Digite o ${ contador } º número: ` ) )
+
+        if ( ! numeroLido )  {
+            alert ( "Digite um número válido! Tente de novo" )
+            Retorna
+        }
+
+        soma  =  soma  +  numeroLido ;
+
+        if ( numeroLido  <  0 )  {
+            negativo ++
+        }  senão  {
+            positivo ++
+        }
+    }
+
+    deixe  media  =  soma  /  10 ;
+    let  percentualPositivos  =  ( positivos  *  100 )  /  10
+     let  percentualNegativos  =  ( negativos  *  100 )  /  10
+
+
+    documento . write ( `<p>A média dos números lidos é ${ media . toFixed ( 2 ) } </p>` )
+    documento . write ( `<p>A quantidade de números positivos é ${ positivo } , equivalente á ${ percentualPositivos } % </p>` )
+    documento . write ( `<p>A quantidade de números negativos é ${ negativo } , , equivalente á ${ percentualNegativos } % </p>` )
+
+
+}
+
+/*
+Desenvolva um algoritmo que leia a altura de 15 pessoas. Este
+programa deve calcular e mostrar:
+uma. A menor altura do grupo;
+b. A maior altura do grupo
+*/
+
+função  exercício9 ( )  {
+    deixe  maior  =  0 ;  // substitui pelo valor mais distante do zero ->
+    deixe  menor  =  999 ;  // substitui pelo valor mais próximo do zero ->
+
+    for ( let  contador  =  1 ;  contador  <=  5 ;  contador ++ )  {
+        const  altura  =  Number ( prompt ( `Informe a ${ contador } ª altura:` ) ) ;
+
+        if ( ! altura  ||  altura  <  0 )  {
+            alert ( "Valor inválido. Executar novamente!" )
+            Retorna
+        }
+
+
+        if ( altura  >  maior )  {
+            maior  =  altura
+        }
+
+        if ( altura  <  menor )  {
+            menor  =  altura
+        }
+
+    }
+
+    documento . write ( `<p>A maior altura aquecida é ${ maior . toFixed ( 2 ) } </p>` )
+    documento . write ( `<p>A menor altura aquecida é ${ menor . toFixed ( 2 ) } </p>` )
+
+}
+
+ teste de função ( )  {
+    let  numero  =  prompt ( 'Digite um numero decimal: ' ) ;
+
+
+    // aqui verifica se o individuo clicou no cancelar
+    if ( numero  ===  null )  {
+        alert ( "Você precisa informar um numero" ) ;
+        Retorna
+    }
+
+    numero  =  Number ( numero . replace ( ',' ,  '.' ) )
+
+    if ( ! numero )  {
+        alert ( "Você não digitou um valor válido. Tenta de novo" )
+        Retorna
+    }
+
+    documento . escreva ( ` ${ numero . toFixed ( 2 ) } ` )
+}
+

@@ -1,0 +1,94 @@
+dados: tipos JS - primeira etapa do processo de desenvolvimento do algoritmo
+
+18 = number idade, altura, peso, valor - mesmo fracionado - inteiro ou real
+
+'a' ou 'abc' string conjuto de caracteres '!"#@&$78()779' ---> string
+nome , cidade, email, cpf , data de nascimento
+se for optar , opte pela 'aspas simples' ... e se tiver algum texto usa " aspas dupla".
+
+
+true ou false = boolean - verdadeiro ou falso / sim ou não ---> 0 é false / 1 é true
+ativo , maior, promoção
+
+DECLARAÇÃO DE VARIáVEIS - INPUT - é o que fica quardado nas gavetinhas, e ocupa a memoria ran. 
+
+var ---> declaração global ... caindo em desuso
+
+let --> declarar variavel local - tenho acesso somente onde declaração/criada (onde nasceu) {contexto}
+
+const ---> declaração local - porem nao pode ser modificado/reatribuida (parceida c o ID)
+
+a atribuição das constantes fica salvas em memoria ran, quando dou nome a uma variavel estou renomeando uma parte da memoria do pc 
+
+let idade = 18;
+let nome = 'João'
+let ativo = true
+
+let peso;
+const altura = 73.5;
+
+altura = 87.0; // isso dá erro  - cuidado
+
+ativo = false; // isso da bom - vai em frente
+
+Operadores
+
+aritimetico -> + , - , * , / , % -> (VALOR1 OPERADOR VALOR2)
+
+quando quiser colocar número elevado a outro número devo colocar **
+
+let num1 = 10;
+let num2 = 20;
+
+num1 + num2 = 30;
+num1 - num2 = 10;
+num1 * num2 = 200;
+num1 / num2 = 2;
+num1 % num2 = 10;
+num1 ** 2 = 100;
+
+
+de atribuição
+
+de atribuição -> =, +=, -=, *=, /=, %=, **=,
+
+let num3 = 5
+let num3 += 2
+num3 = num3 + 2
+7
+
+
+DE COMPARAÇÃO
+> maior que
+< menor que
+>= maior ou igual
+<= menor ou igual
+== igual
+!= diferente
+=== extritamente igual - identico
+!== extritamente diferente
+
+valor1 operador valor2 sempre comparando o da esquerda com o da direita --> sempre retorna com resultado logico = TRUE ou FALSE
+
+let nume1 = '5';
+let nume2 = 5;
+
+nume1 == nume2 (?) true - ignore o tipo e considera apenas o valor
+nume1!= nume2 (?) false - ignore o tipo e considera apenas o  valor
+
+nume1 === nume2 (?) false - identico - igual em tipo e em valor
+nume1 !== nume2 (?) true - nao sao identicos - igual em valor mas nao em tipo
+
+let nume1 = 10;
+let nume2 = 10;
+
+nume1 > nume2 -> false sempre o da esquereda submetido a comparação com o da direita
+nume1 < nume2 -> false
+nume1 >= nume2 ->  maior (f) ou igual (v) => false
+nume1 <= nume2 -> menor (v) ou igual (f) => true
+
+LOGICOS
+
+OU -> ||
+E -> &&
+não -> |

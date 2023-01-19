@@ -1,0 +1,3 @@
+Construa um algoritmo que peca para o usuário o
+ nome, email, idade e o que está aprendendo no momento.
+  Guarde essas informações em variáveis e depois mostre elas no HTML

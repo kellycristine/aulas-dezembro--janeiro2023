@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade-231122</title>
+</head>
+<body>
+    <h1>Transfromar sua idade de anos em meses e dias</h1>
+
+    <script>
+        let pessoa = prompt('Insira o seu nome: ')
+        let idade = prompt('Insira sua idade: ')
+        let dias = (idade * 365)
+        let meses = (dias / 30)
+        
+
+        document.write(`<h3>Nome: ${pessoa} </h3>`)
+        document.write(`<h3>Sua idade em meses é: ${meses} </h3>`)
+        document.write(`<h3>Sua idade em dias é: ${dias} </h3>`)
+
+    </script>
+</body>
+</html>
